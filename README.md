@@ -18,12 +18,6 @@ People Counting in Real-Time using live video stream/IP camera in OpenCV.
 
 --- 
 
-## Table of Contents
-* [Simple Theory](#simple-theory)
-* [Running Inference](#running-inference)
-* [Features](#features)
-* [References](#references)
-* [Next Steps](#next-steps)
 
 ## Simple Theory
 
@@ -60,18 +54,6 @@ python run.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt --model mobi
 The following is an example of the added features. Note: You can easily on/off them in the config. options (mylib/config.py):
 
 <img src="https://imgur.com/Lr8mdUW.png" width=500>
-
-
-
-## References
-***Main:***
-- SSD paper: https://arxiv.org/abs/1512.02325
-- MobileNet paper: https://arxiv.org/abs/1704.04861
-- Centroid tracker: https://www.pyimagesearch.com/2018/07/23/simple-object-tracking-with-opencv/
-
-***Optional:***
-- https://towardsdatascience.com/review-ssd-single-shot-detector-object-detection-851a94607d11
-- https://pypi.org/project/schedule/
 
 
 <p>&nbsp;</p>
